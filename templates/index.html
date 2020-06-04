@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Index, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>I am Text Utilities Application and I welcome you {{ name }}</h1>
+    <h4>Following are the options for text-utils website</h4>
+    <ul>
+        <li> <a href="{% url 'removepuncform' %}">Remove Puntuation</a> </li>
+        <li><a href="{% url 'capfirstform' %}">Capitalize</a></li>
+        <li><a href="{% url 'newlineremoveform' %}">New Line Remover</a></li>
+        <li><a href="{% url 'spaceremoveform' %}">Space Remover</a></li>
+        <li><a href="{% url 'charcountform' %}">Character Counter</a></li>
+    </ul>
+</body>
+</html>
